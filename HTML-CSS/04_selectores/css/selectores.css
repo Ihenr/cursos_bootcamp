@@ -1,0 +1,11 @@
+section.main .contenedor p{
+    color: red;
+}
+
+.contenedor #boton-contenedor{
+    color: aqua;
+    background-color: black;
+}
+.parrafo{
+    color: green;
+}

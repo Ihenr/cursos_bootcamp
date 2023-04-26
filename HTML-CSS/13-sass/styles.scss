@@ -1,0 +1,26 @@
+//inportacion del componente
+// @import "sass/componentes";
+// @use "sass/componentes"  as comp;
+@use "sass/componentes" ;
+// use crea un espacio de nombre (namespace)
+// $color ->comp.$color
+// $color ->componentes.$color
+
+//Mixins
+@use "sass/mixins";
+// $color ->mixins.$color
+
+//Estilos
+@use "sass/estilos";
+
+
+
+
+//páginas
+//Páginas principales
+//página de contacto
+//página de aviso legao
+
+
+//otros 
+@use "sass/builtin";

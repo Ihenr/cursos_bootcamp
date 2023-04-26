@@ -1,0 +1,37 @@
+.contenido-hidden{
+    background-color: yellow;
+    border: 2px solid rgb(27, 25, 25);
+    width: 300px;
+    height: 100px;
+    overflow: hidden;
+    padding: 15px;
+}
+.contenido-scroll{
+    margin: 10px 0px;
+    background-color: yellow;
+    border: 2px solid rgb(27, 25, 25);
+    width: 300px;
+    height: 100px;
+    overflow: scroll;
+    padding: 15px;
+}
+
+.contenido-visible{
+    margin: 10px 0px;
+    background-color: yellow;
+    border: 2px solid rgb(27, 25, 25);
+    width: 300px;
+    height: 100px;
+    overflow: visible;
+    padding: 15px;
+}
+
+.contenido-auto{
+    margin: 10px 0px;
+    background-color: yellow;
+    border: 2px solid rgb(27, 25, 25);
+    width: 300px;
+    height: 100px;
+    overflow: auto;
+    padding: 15px;
+}

@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.hover{
+    width: 400px;
+    height: 100px;
+    background-color: beige;
+    padding: 10px;
+}
+
+.listado {
+    padding: 15px;
+    background-color: aqua;
+}
+
+.listado p:first-child{
+    color: aliceblue;
+}
+
+a:link{
+    color: deeppink; 
+}
+
+a:visited{
+    color: crimson;
+}
+
+a:hover{
+    color: pink;
+}
+
+a:active{
+    color: greenyellow;
+}

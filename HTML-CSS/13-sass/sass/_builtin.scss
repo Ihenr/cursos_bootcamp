@@ -1,0 +1,43 @@
+
+@use "sass:string";
+@use "sass:math";
+@use "sass:list";
+//funciones con cadenas de textos 
+@debug "hola";
+@debug string.index("Helvetica Neue", "Neue");
+
+$string: "hola";
+$newstring: string.insert($string, " mundo", 5);
+@debug $newstring;
+
+//calcular el tamaño del string
+@debug string.length($newstring);
+
+//cortar strings 
+@debug  string.slice($newstring, 3, 8);
+
+//mayusculas
+@debug string.to-upper-case("Roboto Mono");
+//minusculas
+@debug string.to-lower-case("Roboto Mono");
+//unico Id
+@debug string.unique-id();
+
+//////////////////////////funciones con números
+@debug math.$e;
+@debug math.$pi;
+//redondeos 
+@debug math.floor(4.6);
+@debug math.ceil(4.6);
+//entero mas sercano
+@debug math.round(4.2);
+//minimo maximo del rengo
+@debug math.clamp(0, 300, 10);
+//lista de números maximo-minimo
+@debug math.max(3, 4, 34, 10, 2);
+@debug math.min(3, 4, 34, 10, 2);
+
+// $border-2: [solid, 1px, #ccc];
+// @debug list.is-bracketed($border-2);
+
+

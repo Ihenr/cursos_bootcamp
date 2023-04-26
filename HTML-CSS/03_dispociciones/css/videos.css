@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+.video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* llenar toda la pantalla el video*/
+    position: fixed;  
+}
+
+.header{
+    height: 100vh;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.boton{
+    display: inline-block;
+    border: 3px solid rgb(247, 235, 235);
+    border-radius: 40%;
+    padding: 12px 36px;
+    font-size: 20px;
+    background: rgba(0, 0, 0, .2);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    letter-spacing: 2px;
+    overflow: hidden;
+    cursor: pointer;
+}

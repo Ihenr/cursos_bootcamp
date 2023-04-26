@@ -1,0 +1,66 @@
+/* ctrl k y ctrl c ------para comentar */
+.input{
+    width: 100%;
+    padding: 5px 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+/* acceder mediante los atributos  */
+.input[type='password']{ 
+    color: red;
+}
+
+.input-moderno{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #c2c2c2;
+    padding: 5px;
+    color: #5f5f5f;
+}
+
+.input-moderno:focus{
+    border-bottom: 1px solid #5f5f5f;
+}
+
+.input-moderno::placeholder{
+    color:#c2c2c2;
+}
+/* ------------------ */
+.input-backgraund{
+    background-color: aquamarine;
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 0px 10px rgb(0, 0, 0);
+}
+
+.input-backgraund::placeholder{
+    color: #855555;
+}
+
+.input-search{
+    padding: 10px;
+    padding-left: 30px;
+    border: none;
+    background-color: rgb(214, 211, 211);
+    border-radius: 8px;
+    margin: 10px;
+    outline: none;
+    background-image: url('../img/disminuir-el-zoom.png');
+    background-repeat: no-repeat;
+    background-position: 7px;
+    background-size: 20px;
+}
+
+textarea{
+    resize: vertical;
+}
+
+select{
+    width: 100%;
+    padding: 15px;
+    background-color: #c2c2c2;
+}
